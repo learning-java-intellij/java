@@ -17,6 +17,12 @@ public class Funciones {
         return 4 / 3 * Math.PI * Math.pow(r, 3);
     }
 
+    /**
+     * Según moneda se convierte a dólares, monedas soportadas MXN y COP
+     * @param quantity cantidad a convertir
+     * @param currency moneda de origen
+     * @return quantity en dólares
+     */
     public static double convertToDollar(double quantity, String currency) {
         //MXN COP
         switch (currency) {
